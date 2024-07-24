@@ -37,11 +37,11 @@ Provides API allowing plugins to interact with mods easily.<br>
 - 2.Open directory: `cd CatServer`.
 - 3.Setup project: `gradlew setup`.
 - 4.Generate patch(If you modify the Minecraft code): `gradlew genPatches`.
-- 5.Build: `gradlew buildCatServer`
+- 5.Build: `gradlew buildCatServer`.
 
 ### Generate dependency
 1. Run the server, Wait for the libraries to download and generate the SRG.
-2. Import the following jar in order as dependencies (Add more libraries if you need to use):
+2. Import the following jar in order as dependencies (Add more libraries if you need):
 ```
 libraries/net/minecraftforge/forge/{MC_VERSION}-{FORGE_VERSION}/forge-{MC_VERSION}-{FORGE_VERSION}-universal.jar
 libraries/net/minecraftforge/forge/{MC_VERSION}-{FORGE_VERSION}/forge-{MC_VERSION}-{FORGE_VERSION}-server.jar
