@@ -37,11 +37,11 @@ jar CatServer-1.16.5-xxxxxxx-server.jar)`.
 Рекомендуется запускать на Java 8 или 11, хотя поддерживаются Java 12-17 и более поздние версии, **могут быть проблемы совместимости с модами и плагинами**.
 
 ### Сборка
-1. Клонируем ветку 1.16.5: `git clone -b 1.16.5 https://github.com/Luohuayu/CatServer.git`
-2. Переходим в каталог: `cd CatServer`
-3. Запускаем настройку проекта: `gradlew setup`
-4. Сгенерируем патчи (если вы изменяете код Minecraft): `gradlew genPatches`
-5. Собираем проект: `gradlew buildCatServer`
+1. Клонируйте ветку 1.16.5: `git clone -b 1.16.5 https://github.com/Luohuayu/CatServer.git`
+2. Перейдите в директорию: `cd CatServer`
+3. Запустите настройку проекта: `gradlew setup`
+4. Сгенерируйте патчи (если вы изменяете код Minecraft): `gradlew genPatches`
+5. Собирите проект: `gradlew buildCatServer`
 
 
 ### Сгенерируйте зависимость
